@@ -1,4 +1,4 @@
-<img src="./svg.svg" width="800" height="400">
+<img src="https://github.com/sglazov/sglazov/blob/master/svg.svg" width="800" height="400">
 
 <div align="center">
 	<br>
