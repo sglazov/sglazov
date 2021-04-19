@@ -1,3 +1,13 @@
+<a href="#a">
+    Foo
+    <object type="owo/uwu">
+        <a href="#b">
+            Bar
+        </a>
+    </object>
+    Baz
+</a>
+
 <div width="854" height="300">
 <svg fill="none" viewBox="0 0 854 300" width="854" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
