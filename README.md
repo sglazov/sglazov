@@ -1,8 +1,9 @@
-<object type="owo/uwu" width="854" height="300">
-<svg fill="none" viewBox="0 0 854 300" width="854" height="300" xmlns="http://www.w3.org/2000/svg">
-  <foreignObject width="100%" height="100%">
-    <div xmlns="http://www.w3.org/1999/xhtml">
 
+<svg fill="none" viewBox="0 0 854 300" width="854" height="300" xmlns="http://www.w3.org/2000/svg">
+      
+      <path fill="#1B73E7" d="M5.225 0l25.578 15.676-5.225 8.526L0 8.526z"></path>
+  <foreignObject width="100%" height="100%">
+<object type="ffff/rrrrr" width="854" height="300">
       <style>
         .wtf {
           box-sizing: border-box;
@@ -40,6 +41,6 @@
         </div>
       </div>
     </div>
+</object>
   </foreignObject>
 </svg>
-</object>
