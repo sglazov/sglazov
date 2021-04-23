@@ -3,39 +3,103 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
 
       <style>
-        .wtf {
+        :root {
+          --space: 8px;
+          --border: #f5f9fa;
+          --link: #0078ff;
+          --link-underline: rgba(0,120,255,0.35);
+          --highlight: #fae596;
+
+          font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Ubuntu, Cantarell, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+          font-size: 16px;
+          line-height: 20px;
           box-sizing: border-box;
-          height: 250px;
+        }
+
+        a {
+          color: var(--link);
+          border-bottom: 1px solid var(--link-underline);
+          text-decoration: none;
+          transition: .25s ease-out;
+        }
+
+        code {
+          font-family: 'Fira Code','Courier New',Courier,monospace;
+          border-radius: 4px;
+          background-color: var(--border);
+          position: relative;
+          z-index: 0;
+          margin-left: calc(var(--space,8px) - 2px);
+          margin-right: calc(var(--space,8px) - 2px);
+        }
+
+        mark {
+          background-color: transparent;
+          position: relative;
+          white-space: nowrap;
+          z-index: 1;
+        }
+
+        mark::after {
+          background-color: var(--highlight);
+          border-radius: 2px;
+          box-sizing: content-box;
+          content: '';
+          display: inline-block;
+          font-size: inherit;
+          height: 100%;
+          left: -2px;
+          line-height: inherit;
+          padding: 2px 3px;
+          position: absolute;
+          top: -2px;
+          width: 100%;
+          z-index: -1;
+        }
+
+        .wtf {
+          height: calc(300px - var(--space) * 5);
           box-shadow:
-            0 0 0 2px #000,
-            0 0 0 3px #999,
-            0 0 0 9px #fa0,
-            0 0 0 10px #666,
-            0 0 0 16px #fd0,
-            0 0 0 18px #000;
+            0 0 0 6px var(--link);
           background-color: #fff;
-          display: flex;
-          align-items: center;
-          justify-content: space-between;
-          align-content: center;
-          flex-direction: center;
+          display: grid;
+          grid-auto-flow: column;
+          column-gap: 32px;
+          grid-auto-columns: minmax(min-content, max-content);
           border-radius: 8px;
-          padding: 24px;
-          margin: 30px;
+          padding: 0 32px;
+          margin: var(--space);
         }
         .wtf__item {
           padding: 24px;
+        }
+
+        /* Я — реально BR, а ты — нет о_О */
+        .i-am-br::before {
+          content: '\A';
+          white-space: pre;
+        }
+
+        /* Ну не руками же я их буду мнемониками ставить, серьёзно */
+        .tag::before {
+          content: "\003C";
+        }
+
+        .tag::after {
+          content: "\003E";
         }
       </style>
 
       <div class="wtf">
         <div class="wtf__item">
-          <h1>Привет!</h1>
-          <p><a href="https://sglazov.ru/">https://sglazov.ru/</a></p>
+          <p>Почта: <span class="i-am-br"><a href="mailto:sglazov@sglazov.ru" target="_blank">sglazov@sglazov.ru</a></span></p>
+          <p>Сайт: <span class="i-am-br"><a href="https://sglazov.ru/" target="_blank">https://sglazov.ru</a></span></p>
+          <p>Тви: <span class="i-am-br"><a href="https://twitter.com/4enki" target="_blank">@4enki</a></span></p>
         </div>
         <div class="wtf__item">
-          <p>Это попытка поверстать в README-файле информации профиля привычным способом: <code>flex</code>, <code>css</code>, вот это всё.</p>
-          <p>Я до конца не знаю, как себя поведёт ссылка в ссылке, но svg вставлено через тег <code>img</code>, поэтому кликаться не должно.</p>
+          <p>Это попытка поверстать в README-файле информации профиля <mark>привычным способом</mark>:  <code>CSS</code>, <code>grid</code>, вот это всё. Но внутри SVG через <code>foreignObject</code>.</p>
+          <p>Ссылки внутри здесь будут активны только если открыть сам SVG-файл отдельно.</p>
+          <p>Удивительное открытие: от тега <code class="tag">br</code> внутри <code>foreignObject</code> всё нахрен ломается о_О</p>
         </div>
       </div>
     </div>
