@@ -58,7 +58,7 @@
         }
 
         .wtf {
-          height: calc(300px - var(--space) * 5);
+          height: calc(300px - var(--space) * 3);
           box-shadow:
             0 0 0 6px var(--link);
           background-color: #fff;
