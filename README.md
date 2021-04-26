@@ -1,4 +1,4 @@
-<a href="https://sglazov.ru/" target="_blank">
+<a href="https://sglazov.ru/" target="_blank" onclick="alert('Привет?'); return false;">
 <div align="center">
 	<img src="./svg.svg?v3" 
 	     width="854" 
