@@ -1,4 +1,4 @@
-# `<?php echo "console.log('Hello, World!')"; // o_0`
+# `<?= "console.log('Hello, World!')"; // o_0`
 I’m Sergey and I make websites.
 
 I am currently working with Laravel and Vue. I like to work with content projects: blogs, media. I like order in files, have a sense of taste and ideals of beauty in the project.
