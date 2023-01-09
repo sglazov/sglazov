@@ -1,0 +1,33 @@
+name: Обновляет README.md
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    # at 02:30 on every 6th day-of-month,
+    # see crontab.guru
+    - cron:  '30 2 */6 * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Загрузка актуальной кодовой базы
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: Установка зависимостей
+        run: npm ci
+      - name: Обновление README.md
+        run: |
+          npm start
+          cat README.md
+      - name: Commit и push, если есть изменения
+        run: |
+          git config --global user.email "sglazov@users.noreply.github.com"
+          git config --global user.name "Sergey Glazov"
+          git add .
+          git diff
+          git commit -m "Обновляет README.md" -a || echo "No changes to commit"
+          git push
