@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "description": "<!-- **sglazov/sglazov** is a ✨ _special_ ✨ repository because `README.md` is updated through Github Actions.",
+  "main": "index.js",
+  "homepage": "https://github.com/sglazov/sglazov#readme",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "rss-parser": "^3.12.0"
+  }
+}
