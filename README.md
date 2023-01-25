@@ -6,11 +6,11 @@ I am currently working with Laravel and Vue. I like to work with content project
 ## On [My Blog](https://sglazov.ru/notes/) <sup>_(in Russian)_</sup>
 
 * [WordPress и домены-синонимы (алиасы)](https://sglazov.ru/notes/wordpress-domains/) <br />
-<sup>_12 июля 2022_</sup>
+<sup>_12 июля 2022 г._</sup>
 * [Хочешь чего-то узнать — включи любопытство](https://sglazov.ru/notes/curious/) <br />
-<sup>_30 июня 2022_</sup>
+<sup>_30 июня 2022 г._</sup>
 * [Исполнитель (сотрудник) — не ксерокс](https://sglazov.ru/notes/your-opinion/) <br />
-<sup>_9 июня 2022_</sup>
+<sup>_9 июня 2022 г._</sup>
 
 
 ## Knowledge and skills as tags
