@@ -3,12 +3,12 @@ I’m Sergey and I make websites. I am currently working with Laravel and Nuxt<s
 
 ## On [My Blog](https://sglazov.ru/notes/) <sup>_(in Russian)_</sup>
 
+* [Электрические письма](https://sglazov.ru/notes/emails/) <br />
+<sup>_5 июня 2023_</sup>
 * [WordPress и домены-синонимы (алиасы)](https://sglazov.ru/notes/wordpress-domains/) <br />
-  <sup>_12 июля 2022_</sup>
+<sup>_12 июля 2022_</sup>
 * [Хочешь чего-то узнать — включи любопытство](https://sglazov.ru/notes/curious/) <br />
-  <sup>_30 июня 2022_</sup>
-* [Исполнитель (сотрудник) — не ксерокс](https://sglazov.ru/notes/your-opinion/) <br />
-  <sup>_9 июня 2022_</sup>
+<sup>_30 июня 2022_</sup>
 
 
 ## Knowledge and skills as tags
