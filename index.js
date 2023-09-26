@@ -71,7 +71,7 @@ I’m Sergey and I make websites. I am currently working with Laravel and Nuxt. 
 ${notes}
 
 
-## Knowledge and skills as tags
+## Technologies and buzzwords
 <details>
   <summary>hmm what</summary>
 
