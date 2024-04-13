@@ -6,10 +6,16 @@ const fs = require('fs')
 const Parser = require('rss-parser')
 const parser = new Parser()
 
+const buzzwords = require('./buzzwords.js')
+
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5)
+}
 
 const config = {
   site: 'https://sglazov.ru',
   blog: 'https://sglazov.ru/notes/',
+  cv: 'https://sglazov.ru/cv/',
   feed: 'https://sglazov.ru/notes/feed/',
   posts: 3
 }
@@ -18,14 +24,14 @@ const config = {
 /**
  * Форматировалка даты
  */
-const formatter = new Intl.DateTimeFormat('ru', {
+const formatter = new Intl.DateTimeFormat('en', {
   year: 'numeric',
   month: 'long',
   day: 'numeric'
 })
 function formatRuDate(pubDate) {
   const date = new Date(pubDate)
-  return formatter.format(date).replace(' г.', '')
+  return formatter.format(date).replace(' y.', '')
 }
 
 /**
@@ -65,21 +71,21 @@ async function loadNotes()
   }
 
   const result = `# \`<?= "console.log('Hello, World!')"; // o_0\`
-I’m Sergey and I make websites. I am currently working with Laravel and Nuxt. I like to work with content projects: blogs, media. I like order in files, have a sense of taste and ideals of beauty in the project.
+My main languages are PHP and JavaScript, as I specialize in web apps and services. I value simplicity in my projects. I've mostly worked in startups and mid-sized companies. I am currently working with Laravel + Nuxt. I like to work with content projects: blogs, media.
 
-## On [My Blog](${config.blog}) <sup>_(in Russian)_</sup>
+## Some of [my articles](${config.blog}): <sup>_(in Russian)_</sup>
 ${notes}
 
 
-## Technologies and buzzwords
+## Buzzwords: Skills and Technologies
 <details>
   <summary>hmm what</summary>
 
-  CSS, HTML, SCSS, PostCSS, Stylus, styled-components, Less, БЭМ, Pug (Jade), Nunjucks, JavaScript, jQuery, a11y, Eleventy (11y), MarkDown, Gulp, Grunt, Cypress, Git, GitHub, GitHub Actions, GitLab, Bitbucket, Sketch, Zeplin, Avacode, Photoshop, Figma, SVG, React, Vue, Nuxt, Deployer.php, PHP, WordPress, Laravel, Laravel Nova, Eloquent ORM, MySQL, Blade, Flarum, Shop-Script, Bootstrap, ispmanager, Reg.ru, TimeWeb, Docker, MAMP, Make, Shell, Nginx, Apache.
+  ${shuffle(buzzwords).join(', ')}.
 </details>
 
 ----
-[github@sglazov.ru](mailto:github@sglazov.ru)
+[**My CV**](${config.cv}), [github@sglazov.ru](mailto:github@sglazov.ru), [t.me/sglazov](https://t.me/sglazov).
 `
 
   /**

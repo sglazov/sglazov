@@ -1,22 +1,21 @@
 # `<?= "console.log('Hello, World!')"; // o_0`
-I’m Sergey and I make websites. I am currently working with Laravel and Nuxt<sup>v3</sup>. I like to work with content projects: blogs, media. I like order in files, have a sense of taste and ideals of beauty in the project.
-
-## On [My Blog](https://sglazov.ru/notes/) <sup>_(in Russian)_</sup>
+My main languages are PHP and JavaScript, as I specialize in web apps and services. I value simplicity in my projects. I've mostly worked in startups and mid-sized companies. I am currently working with Laravel + Nuxt. I like to work with content projects: blogs, media.
+## Some of [my articles](https://sglazov.ru/notes/): <sup>_(in Russian)_</sup>
 
 * [Электрические письма](https://sglazov.ru/notes/emails/) <br />
-<sup>_5 июня 2023_</sup>
+<sup>_June 5, 2023_</sup>
 * [WordPress и домены-синонимы (алиасы)](https://sglazov.ru/notes/wordpress-domains/) <br />
-<sup>_12 июля 2022_</sup>
+<sup>_July 12, 2022_</sup>
 * [Хочешь чего-то узнать — включи любопытство](https://sglazov.ru/notes/curious/) <br />
-<sup>_30 июня 2022_</sup>
+<sup>_June 30, 2022_</sup>
 
 
-## Knowledge and skills as tags
+## Buzzwords: Skills and Technologies
 <details>
   <summary>hmm what</summary>
 
-  CSS, HTML, SCSS, PostCSS, Stylus, styled-components, Less, БЭМ, Pug (Jade), Nunjucks, JavaScript, jQuery, a11y, Eleventy, MarkDown, Gulp, Grunt, Cypress, Git, GitHub, GitHub Actions, GitLab, Bitbucket, Sketch, Zeplin, Avacode, Photoshop, Figma, SVG, React, Vue, Nuxt3, Deployer.php, PHP, WordPress, Laravel, Laravel Nova, Blade, Flarum, Shop-Script, Bootstrap, ispmanager, Reg.ru, TimeWeb, Docker, MAMP.
+  Apache, Figma, CSS, Livewire, PostCSS, Nuxt, Gulp, PHP, jQuery, Shell, Vue, Nunjucks, CloudPayments API, Sketch, phpMyAdmin, ispmanager, Makefile, Markdown, GitHub, Reg.ru, БЭМ, Tinkoff API, Nginx, Eleventy (11ty), Vite, Git, Stylus, Less, JavaScript, WordPress, Laravel Nova, Flarum, Docker, SEO, Photoshop, GitLab, Composer, webpack, MySQL, Accessibility (a11y), Deployer.php, Bootstrap, Blade, Laravel, HTML, TimeWeb, SCSS, Pug (Jade), Grunt, Zeplin, React, Tailwind, Eloquent ORM, SVG, styled-components, HTTPie, Cypress, GitHub Actions, MAMP, Bitbucket, Shop-Script.
 </details>
 
 ----
-[github@sglazov.ru](mailto:github@sglazov.ru)
+[**My CV**](https://sglazov.ru/cv/), [github@sglazov.ru](mailto:github@sglazov.ru), [t.me/sglazov](https://t.me/sglazov).
