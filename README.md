@@ -1,5 +1,6 @@
 # `<?= "console.log('Hello, World!')"; // o_0`
 My main languages are PHP and JavaScript, as I specialize in web apps and services. I value simplicity in my projects. I've mostly worked in startups and mid-sized companies. I am currently working with Laravel + Nuxt. I like to work with content projects: blogs, media.
+
 ## Some of [my articles](https://sglazov.ru/notes/): <sup>_(in Russian)_</sup>
 
 * [Электрические письма](https://sglazov.ru/notes/emails/) <br />
@@ -14,7 +15,7 @@ My main languages are PHP and JavaScript, as I specialize in web apps and servic
 <details>
   <summary>hmm what</summary>
 
-  Apache, Figma, CSS, Livewire, PostCSS, Nuxt, Gulp, PHP, jQuery, Shell, Vue, Nunjucks, CloudPayments API, Sketch, phpMyAdmin, ispmanager, Makefile, Markdown, GitHub, Reg.ru, БЭМ, Tinkoff API, Nginx, Eleventy (11ty), Vite, Git, Stylus, Less, JavaScript, WordPress, Laravel Nova, Flarum, Docker, SEO, Photoshop, GitLab, Composer, webpack, MySQL, Accessibility (a11y), Deployer.php, Bootstrap, Blade, Laravel, HTML, TimeWeb, SCSS, Pug (Jade), Grunt, Zeplin, React, Tailwind, Eloquent ORM, SVG, styled-components, HTTPie, Cypress, GitHub Actions, MAMP, Bitbucket, Shop-Script.
+  GitHub Actions, Eloquent ORM, CSS, Nunjucks, Photoshop, PHP, Cypress, Markdown, Zeplin, HTML, ispmanager, SVG, GitHub, Pug (Jade), webpack, Blade, Laravel Nova, MySQL, Reg.ru, Figma, Shop-Script, jQuery, HTTPie, Less, SCSS, WordPress, Bootstrap, Deployer.php, Nuxt, Tailwind, Flarum, Makefile, Docker, CloudPayments API, Gulp, PostCSS, Git, Tinkoff API, Stylus, Composer, Sketch, styled-components, Vite, MAMP, phpMyAdmin, Nginx, Bitbucket, SEO, Vue, TimeWeb, Eleventy (11ty), Livewire, Accessibility (a11y), Laravel, GitLab, JavaScript, React, Shell, Grunt, БЭМ, Apache.
 </details>
 
 ----
