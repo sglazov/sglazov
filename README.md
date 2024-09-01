@@ -15,7 +15,7 @@ My main languages are PHP and JavaScript, as I specialize in web apps and servic
 <details>
   <summary>hmm what</summary>
 
-  HTML, WordPress, styled-components, Vite, Shell, Figma, Markdown, Nuxt, Git, GitHub Actions, Tinkoff API, Bitbucket, Eleventy (11ty), SEO, Nginx, Nunjucks, Accessibility (a11y), TimeWeb, Less, CSS, Sketch, GitLab, Cypress, Makefile, PHP, Photoshop, Gulp, БЭМ, Composer, MAMP, Laravel, Flarum, Apache, React, Pug (Jade), JavaScript, Deployer.php, Livewire, Stylus, Zeplin, SCSS, Blade, Docker, ispmanager, Grunt, Laravel Nova, Tailwind, jQuery, HTTPie, Shop-Script, GitHub, SVG, Vue, webpack, PostCSS, Reg.ru, Bootstrap, Eloquent ORM, phpMyAdmin, MySQL, CloudPayments API.
+  HTML, CloudPayments API, CSS, Markdown, Tinkoff API, React, Photoshop, Stylus, Makefile, Bootstrap, styled-components, Gulp, БЭМ, Laravel Nova, WordPress, Flarum, Laravel, Less, Vue, Pug (Jade), Figma, ispmanager, Sketch, webpack, MAMP, Reg.ru, Apache, Composer, Livewire, Git, Eloquent ORM, HTTPie, Deployer.php, Vite, Nunjucks, Docker, Shell, Blade, SVG, JavaScript, phpMyAdmin, Bitbucket, GitHub Actions, TimeWeb, SEO, MySQL, Nginx, GitHub, PostCSS, Eleventy (11ty), PHP, Grunt, Nuxt, Tailwind, Zeplin, SCSS, Cypress, Accessibility (a11y), GitLab, jQuery, Shop-Script.
 </details>
 
 ----
