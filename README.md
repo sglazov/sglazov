@@ -3,19 +3,13 @@ My main languages are PHP and JavaScript, as I specialize in web apps and servic
 
 ## Some of [my articles](https://sglazov.ru/notes/): <sup>_(in Russian)_</sup>
 
-* [История создания двух ссылок для добавления мероприятия в календарь](https://sglazov.ru/notes/add-to-calendar/) <br />
-<sup>_April 18, 2024_</sup>
-* [Электрические письма](https://sglazov.ru/notes/emails/) <br />
-<sup>_June 5, 2023_</sup>
-* [WordPress и домены-синонимы (алиасы)](https://sglazov.ru/notes/wordpress-domains/) <br />
-<sup>_July 12, 2022_</sup>
 
 
 ## Buzzwords: Skills and Technologies
 <details>
   <summary>hmm what</summary>
 
-  Markdown, Nunjucks, CSS, MAMP, JavaScript, PHP, Shell, ispmanager, БЭМ, Flarum, Makefile, Eloquent ORM, Tinkoff API, Reg.ru, GitHub, SEO, Accessibility (a11y), Photoshop, Laravel Nova, HTTPie, Blade, HTML, React, Eleventy (11ty), Nginx, Vite, Bootstrap, Docker, jQuery, TimeWeb, Vue, GitLab, Apache, Shop-Script, Composer, Zeplin, Cypress, styled-components, Grunt, Laravel, phpMyAdmin, MySQL, CloudPayments API, Tailwind, Pug (Jade), Livewire, SCSS, Figma, Git, Less, webpack, GitHub Actions, Deployer.php, PostCSS, Gulp, Stylus, Nuxt, Bitbucket, Sketch, SVG, WordPress.
+  PostCSS, SCSS, Less, Tinkoff API, Composer, HTML, ispmanager, Zeplin, React, SVG, TimeWeb, Sketch, Eloquent ORM, PHP, Docker, GitHub Actions, CSS, MySQL, Figma, Apache, Bitbucket, Photoshop, Deployer.php, JavaScript, Pug (Jade), Nginx, Vite, Gulp, Livewire, Nunjucks, Vue, Stylus, Laravel Nova, GitHub, Shell, Bootstrap, WordPress, jQuery, Reg.ru, SEO, CloudPayments API, GitLab, Accessibility (a11y), Cypress, styled-components, HTTPie, Flarum, MAMP, Git, Eleventy (11ty), webpack, Grunt, Nuxt, Blade, Markdown, Shop-Script, phpMyAdmin, БЭМ, Laravel, Tailwind, Makefile.
 </details>
 
 ----
