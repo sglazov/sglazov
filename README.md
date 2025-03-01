@@ -3,19 +3,19 @@ My main languages are PHP and JavaScript, as I specialize in web apps and servic
 
 ## Some of [my articles](https://sglazov.ru/notes/): <sup>_(in Russian)_</sup>
 
+* [Стилизуй свой RSS](https://sglazov.ru/notes/rss-styling/) <br />
+<sup>_March 2, 2025_</sup>
 * [История создания двух ссылок для добавления мероприятия в календарь](https://sglazov.ru/notes/add-to-calendar/) <br />
 <sup>_April 18, 2024_</sup>
 * [Электрические письма](https://sglazov.ru/notes/emails/) <br />
 <sup>_June 5, 2023_</sup>
-* [WordPress и домены-синонимы (алиасы)](https://sglazov.ru/notes/wordpress-domains/) <br />
-<sup>_July 12, 2022_</sup>
 
 
 ## Buzzwords: Skills and Technologies
 <details>
   <summary>hmm what</summary>
 
-  Eleventy (11ty), Makefile, CloudPayments API, Blade, Laravel, SVG, Nginx, Stylus, Bootstrap, Tinkoff API, Less, React, PHP, styled-components, Bitbucket, Nuxt, Figma, Markdown, MySQL, Reg.ru, GitHub Actions, Composer, phpMyAdmin, Deployer.php, Vite, PostCSS, Flarum, SCSS, HTML, CSS, Apache, JavaScript, GitHub, Photoshop, Accessibility (a11y), GitLab, TimeWeb, Eloquent ORM, БЭМ, Git, Cypress, Docker, SEO, MAMP, Sketch, Livewire, Tailwind, Grunt, Nunjucks, jQuery, Laravel Nova, Gulp, webpack, Vue, Shop-Script, HTTPie, WordPress, ispmanager, Pug (Jade), Shell, Zeplin.
+  React, Livewire, CloudPayments API, Tinkoff API, Bitbucket, PostCSS, Blade, Docker, Zeplin, Nunjucks, jQuery, Cypress, Eleventy (11ty), Gulp, TimeWeb, GitHub, Sketch, Laravel, phpMyAdmin, Stylus, Shell, Flarum, webpack, MAMP, Shop-Script, Nuxt, Grunt, Makefile, Figma, SCSS, GitHub Actions, Tailwind, HTTPie, JavaScript, styled-components, Git, Laravel Nova, БЭМ, HTML, Nginx, SVG, Composer, Apache, Less, SEO, WordPress, Eloquent ORM, PHP, ispmanager, CSS, Photoshop, GitLab, Markdown, Pug (Jade), Reg.ru, MySQL, Vue, Accessibility (a11y), Vite, Deployer.php, Bootstrap.
 </details>
 
 ----
