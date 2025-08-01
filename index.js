@@ -4,7 +4,11 @@
  */
 const fs = require('fs')
 const Parser = require('rss-parser')
-const parser = new Parser()
+const parser = new Parser({
+  customFields: {
+    item: ['price']
+  }
+})
 
 const buzzwords = require('./buzzwords.js')
 
@@ -16,8 +20,8 @@ const config = {
   site: 'https://sglazov.ru',
   blog: 'https://sglazov.ru/notes/',
   cv: 'https://sglazov.ru/cv/',
-  feed: 'https://sglazov.ru/notes/feed/',
-  posts: 3,
+  feed: 'https://sglazov.ru/notes/feed/for-github/',
+  posts: 4,
   cacheFile: 'feed-cache.txt'
 }
 
@@ -70,16 +74,23 @@ function saveCache(links) {
 async function loadNotes() {
   const feed = await parser.parseURL(config.feed)
   const items = feed.items.slice(0, config.posts)
-  
+
   // Получаем ссылки на заметки
   const links = items.map(item => item.link)
-  
+
   // Формируем HTML для README
   let linksHtml = ''
   items.forEach((item) => {
+    console.log(item)
+
     linksHtml += `
 * [${item.title}](${item.link}) <br />
 <sup>_${formatRuDate(item.pubDate)}_</sup>`
+
+    // Добавляем цену только если она есть
+    if (item.price) {
+      linksHtml += `<sup>, buy for _${item.price}_</sup>`
+    }
   })
 
   return { links, linksHtml }
@@ -95,13 +106,13 @@ function hasLinksChanged(newLinks, cachedLinks) {
   if (newLinks.length !== cachedLinks.length) {
     return true
   }
-  
+
   for (let i = 0; i < newLinks.length; i++) {
     if (newLinks[i] !== cachedLinks[i]) {
       return true
     }
   }
-  
+
   return false
 }
 
@@ -112,9 +123,9 @@ function hasLinksChanged(newLinks, cachedLinks) {
  */
 function generateReadme(notesHtml) {
   return `# \`<?= "console.log('Hello, World!')"; // o_0\`
-My main languages are PHP and JavaScript, as I specialize in web apps and services. I value simplicity in my projects. I've mostly worked in startups and mid-sized companies. I am currently working with Laravel + Nuxt. I like to work with content projects: blogs, media.
+My main languages are PHP and JavaScript, as I specialize in web apps and services. I value simplicity in my projects. I've mostly worked in startups and mid-sized companies. I am currently working with Laravel + Nuxt. I like to work with content projects.
 
-## Some of [my articles](${config.blog}): <sup>_(in Russian)_</sup>
+## Some of [my articles](${config.blog}): _(in Russian)_
 ${notesHtml}
 
 
@@ -134,22 +145,22 @@ ${notesHtml}
   try {
     // Загружаем заметки
     const { links, linksHtml } = await loadNotes()
-    
+
     // Читаем кэш
     const cachedLinks = readCache()
-    
+
     // Проверяем, изменились ли ссылки
     const linksChanged = hasLinksChanged(links, cachedLinks)
-    
+
     if (linksChanged) {
       console.log('Обнаружены новые заметки, обновляю README.md')
-      
+
       // Генерируем README
       const result = generateReadme(linksHtml)
-      
+
       // Сохраняем README
       fs.writeFileSync('README.md', result, 'utf8')
-      
+
       // Обновляем кэш
       saveCache(links)
     } else {

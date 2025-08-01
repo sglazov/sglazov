@@ -33,6 +33,7 @@ module.exports = [
   "React",
   "Vue",
   "Nuxt",
+  "Pinia",
   "Deployer.php",
   "PHP",
   "Composer",
@@ -59,5 +60,6 @@ module.exports = [
   "Tailwind",
   "Livewire",
   "CloudPayments API",
-  "Tinkoff API"
+  "Tinkoff API",
+  "Payselection API"
 ]
